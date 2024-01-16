@@ -143,6 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="first_app.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="sve_window.cpp" />
   </ItemGroup>

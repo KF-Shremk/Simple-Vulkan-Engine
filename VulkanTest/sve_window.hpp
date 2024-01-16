@@ -12,6 +12,12 @@ namespace sve {
 	public:
 		SveWindow(int w, int h, std::string name);
 		~SveWindow();
+
+		//prohibiting copy constructor and operations
+		SveWindow(const SveWindow&) = delete;
+		SveWindow &operator=(const SveWindow&) = delete;
+
+		bool shouldClose();
 		 
 	private:
 

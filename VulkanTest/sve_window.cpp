@@ -13,6 +13,11 @@ namespace sve {
 		glfwTerminate();
 	}
 
+	bool SveWindow::shouldClose()
+	{
+		return glfwWindowShouldClose(window);
+	}
+
 	void SveWindow::initWindow()
 	{
 		glfwInit();

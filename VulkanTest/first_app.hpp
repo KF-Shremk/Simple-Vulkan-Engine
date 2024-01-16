@@ -11,7 +11,7 @@ namespace sve {
 		static constexpr int HEIGHT = 800;
 		static constexpr int WIDTH = 600;
 
-		void run() {};
+		void run();
 	private:
 		SveWindow SveWindow{WIDTH, HEIGHT, "hello vulkan!"};
 	};

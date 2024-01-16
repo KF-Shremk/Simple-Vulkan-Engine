@@ -21,6 +21,9 @@
     <ClCompile Include="sve_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="first_app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="sve_window.hpp">
