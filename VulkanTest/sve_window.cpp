@@ -13,11 +13,13 @@ namespace sve {
 		glfwTerminate();
 	}
 
+	//checks for events on whether the window should close
 	bool SveWindow::shouldClose()
 	{
 		return glfwWindowShouldClose(window);
 	}
 
+	//initializes the window using GLFW functions
 	void SveWindow::initWindow()
 	{
 		glfwInit();

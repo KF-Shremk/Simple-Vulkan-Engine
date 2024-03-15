@@ -8,8 +8,8 @@ namespace sve {
 	{
 
 	public:
-		static constexpr int HEIGHT = 800;
-		static constexpr int WIDTH = 600;
+		static constexpr int HEIGHT = 540;
+		static constexpr int WIDTH = 960;
 
 		void run();
 	private:
